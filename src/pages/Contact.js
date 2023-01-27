@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
-import "./style.css"
+import Header from '../components/Header'
+
 
 const Contact = () => {
   return (

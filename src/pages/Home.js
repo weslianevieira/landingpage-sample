@@ -1,8 +1,9 @@
 import React from 'react'
-import Header from "../../components/Header/Header";
-import './style.css'
+import Header from "../components/Header";
 
-import Equipe from "../../assets/img/ilustracao.png"
+// img
+import Equipe from "../assets/img/ilustracao.png"
+
 const Home = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Home = () => {
             <a target='_blank' href='www.linkedin.com/in/weslianevieira'>Ver demontração</a>
           </div>
           <div className='w50 time-imagem'>
-            <img src={Equipe} />
+            <img src={Equipe} alt='equipe-na-mesa' />
             {/*[apos usar float como prop css, usar clear] */}
           </div>
           <div className='clear'></div>
