@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // imgs
-import amazon from '../assets/img/amazon.png'
-import walmart from '../assets/img/walmart.png'
-import uber from '../assets/img/uber.png'
-import dominos from '../assets/img/dominos.png'
-import costco from '../assets/img/costco.png'
+import amazon from '../../assets/Home/img/amazon.png'
+import walmart from '../../assets/Home/img/walmart.png'
+import uber from '../../assets/Home/img/uber.png'
+import dominos from '../../assets/Home/img/dominos.png'
+import costco from '../../assets/Home/img/costco.png'
 
-export default function SimpleSlider() {
+export default function HomeSlider() {
    var settings = {
       dots: true,
 		arrows:false,

@@ -1,13 +1,11 @@
 import React from 'react'
-import Header from "../components/Header";
 
 // img
-import Equipe from "../assets/img/ilustracao.png"
+import Equipe from "../../assets/Home/img/ilustracao.png"
 
-const Home = () => {
+const HeaderExtensionHome = () => {
   return (
     <>
-      <Header />
       <section className='topHome'>
         <div className='center'>
           <div className='w50 time-descricao'>{/* className no estilo bootstrap css, utilizando subclasses(css orientado a objetos) */}
@@ -26,4 +24,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HeaderExtensionHome

@@ -1,15 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
 
-
-const Contact = () => {
+const About = () => {
   return (
-    <div>
+    <>
       <Header />
-      Contact
-
-    </div>
+    </>
   )
 }
 
-export default Contact
+export default About
