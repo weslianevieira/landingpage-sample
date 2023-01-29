@@ -3,11 +3,11 @@ import React from 'react'
 // img
 import time from '../../assets/Home/img/time.png'
 
-const AboutTime = () => {
+const AboutTeam = () => {
   return (
-    <section className='about-time'>
+    <section className='about-team'>
       <div className='center'>
-         <div className='w50 time-description-2'>
+         <div className='w50 team-description-2'>
             <h2>Um time experiente, <br/> comunicador e coeso.</h2>
             <p>A Product Run acredita que marcas fortes são construídas a partir de transformações importantes e positivas na vida dos consumidores. Exatamente como uma conversa que ganha forma, a ideia vira flâmula.
             <br /><br />
@@ -15,7 +15,7 @@ const AboutTime = () => {
             </p>
          </div>
 
-         <div className='w50 img-time'>
+         <div className='w50 img-team'>
             <img src={time} alt='time' />
          </div>
          <div className='clear'></div>
@@ -24,4 +24,4 @@ const AboutTime = () => {
   )
 }
 
-export default AboutTime
+export default AboutTeam

@@ -1,7 +1,7 @@
 import React from 'react'
 
 // img
-import logoFooter from '../../assets/Home/img/logo-footer.png'
+import logoFooter from '../assets/Home/img/logo-footer.png'
 
 const ContactsFooter = () => {
   return (

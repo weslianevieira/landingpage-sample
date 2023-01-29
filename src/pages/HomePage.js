@@ -5,9 +5,9 @@ import Header from "../components/Header";
 import HomeSlider from '../components/Home/HomeSlider';
 import InfoHome from '../components/Home/InfoHome';
 import HeaderExtensionHome from '../components/Home/HeaderExtensionHome';
-import AboutTime from '../components/Home/AboutTime'
+import AboutTeam from '../components/Home/AboutTeam'
 import Brief from '../components/Home/Brief'
-import ContactsFooter from '../components/Home/ContactsFooter';
+import ContactsFooter from '../components/ContactsFooter';
 
 // css
 import '../css/homePage.css'
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </section>
       <InfoHome />
-      <AboutTime />
+      <AboutTeam />
       <Brief />
       <ContactsFooter />
     </>

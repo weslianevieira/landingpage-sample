@@ -1,0 +1,45 @@
+/***About Page***/
+
+section.about-time {
+   padding: 40px 0;
+}
+
+section.about-time img {
+   width: 100%;
+}
+
+.time-about-text h2 {
+   font-size: 45px;
+   color: #202020;
+   padding: 0 20px;
+}
+
+.time-about-text p {
+   font-size: 16px;
+   line-height: 32px;
+   color: #202020;
+   padding: 0 20px;
+}
+
+section.about-images {
+   padding: 100px;
+   background-color: #f4f9fd;
+}
+
+.about-images>.center {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.about-image img {
+   max-width: 100%;
+}
+
+.about-images .image-about {
+   padding: 0 30px;
+   width: 25%;
+}
+
+
+
+/**/
