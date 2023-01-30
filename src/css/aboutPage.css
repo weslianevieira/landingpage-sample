@@ -1,7 +1,7 @@
 /***About Page***/
 
 section.about-time {
-   padding: 40px 0;
+   padding: 100px 0;
 }
 
 section.about-time img {
@@ -22,7 +22,7 @@ section.about-time img {
 }
 
 section.about-images {
-   padding: 100px;
+   padding: 70px;
    background-color: #f4f9fd;
 }
 

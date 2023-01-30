@@ -14,23 +14,23 @@ import costco from '../../assets/Home/img/costco.png'
 export default function HomeSlider() {
    var settings = {
       dots: true,
-		arrows:false,
-	    infinite: true,
-	    speed:500,
-	    slidesToShow: 4,
-	    autoplay: true,
-	    centerMode:false,
-	    autoplaySpeed: 3000,
-	    pauseOnHover:false,
-	    responsive: 
-	    [
-	    {
-	      breakpoint: 768,
-	      settings: {
-	        slidesToShow: 2
-	      }
-	    }
-	    ]
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      autoplay: true,
+      centerMode: false,
+      autoplaySpeed: 3000,
+      pauseOnHover: false,
+      responsive:
+         [
+            {
+               breakpoint: 768,
+               settings: {
+                  slidesToShow: 2
+               }
+            }
+         ]
    };
    return (
       <Slider {...settings}>
@@ -41,13 +41,13 @@ export default function HomeSlider() {
             <img src={uber} alt='logo-uber' />
          </div>
          <div className='slider-container'>
-         <img src={walmart} alt='logo-walmart' />
+            <img src={walmart} alt='logo-walmart' />
          </div>
          <div className='slider-container'>
-         <img src={costco} alt='logo-costco' />
+            <img src={costco} alt='logo-costco' />
          </div>
          <div className='slider-container'>
-         <img src={dominos} alt='logo-dominos' />
+            <img src={dominos} alt='logo-dominos' />
          </div>
       </Slider>
    );

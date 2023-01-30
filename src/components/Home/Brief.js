@@ -7,8 +7,8 @@ const Brief = () => {
   return (
     <section className='brief'>
       <div className='center'>
-         <h2>Depoimentos</h2>
-         <BriefSlider />
+        <h2>Depoimentos</h2>
+        <BriefSlider />
       </div>
     </section>
   )
