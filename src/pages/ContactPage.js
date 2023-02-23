@@ -5,9 +5,6 @@ import Header from '../components/Header'
 import ContactsFooter from '../components/ContactsFooter'
 import ContactForm from '../components/Contact/ContactForm'
 
-// css
-import '../css/contactPage.css'
-
 const Contact = () => {
   return (
     <div>

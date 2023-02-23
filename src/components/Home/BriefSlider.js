@@ -20,21 +20,21 @@ export default function BriefSlider() {
          <div className='brief-single'>
             <p>"Ea et magna do occaecat cillum consequat. Minim et exercitation ad esse dolor pariatur nulla et minim aliquip. Labore pariatur exercitation nisi labore nisi reprehenderit labore veniam."</p>
 
-            <p>Guilherme Grillo</p>
+            <p>John Doe</p>
             <img src={autor1} alt='autor' />
          </div>
 
          <div className='brief-single'>
             <p>"Ea et magna do occaecat cillum consequat. Minim et exercitation ad esse dolor pariatur nulla et minim aliquip. Labore pariatur exercitation nisi labore nisi reprehenderit labore veniam."</p>
 
-            <p>Guilherme Grillo</p>
+            <p>John Doe</p>
             <img src={autor1} alt='autor' />
          </div>
 
          <div className='brief-single'>
             <p>"Ea et magna do occaecat cillum consequat. Minim et exercitation ad esse dolor pariatur nulla et minim aliquip. Labore pariatur exercitation nisi labore nisi reprehenderit labore veniam."</p>
 
-            <p>Guilherme Grillo</p>
+            <p>John Doe</p>
             <img src={autor1} alt='autor' />
          </div>
       </Slider>

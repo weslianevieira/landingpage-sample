@@ -9,9 +9,6 @@ import AboutTeam from '../components/Home/AboutTeam'
 import Brief from '../components/Home/Brief'
 import ContactsFooter from '../components/ContactsFooter';
 
-// css
-import '../css/homePage.css'
-
 const Home = () => {
   return (
     <>
