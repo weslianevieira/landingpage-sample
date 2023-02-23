@@ -1,11 +1,11 @@
-export const goToHome = (navigate) => {
+export const goToHomePage = (navigate) => {
    navigate("/")
 }
 
-export const goToAbout= (navigate) => {
+export const goToAboutPage = (navigate) => {
    navigate("/about")
 }
 
-export const goToContact = (navigate) => {
+export const goToContactPage = (navigate) => {
    navigate("/contact")
 }
